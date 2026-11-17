@@ -14,6 +14,29 @@
   --font-serif: Georgia, "Times New Roman", serif;
 }
 
+@layer components {
+  .doctor-book-appointment {
+    visibility: hidden;
+    pointer-events: none;
+    opacity: 0;
+    transform: translateY(calc(100% + 8px));
+    transition:
+      opacity 240ms ease,
+      transform 360ms cubic-bezier(0.22, 1, 0.36, 1),
+      visibility 0s linear 360ms,
+      background-color 200ms ease;
+  }
+
+  .group:hover .doctor-book-appointment,
+  .group:focus-within .doctor-book-appointment {
+    visibility: visible;
+    pointer-events: auto;
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0s;
+  }
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;
@@ -44,6 +67,10 @@
       animation-duration: 0.01ms !important;
       animation-iteration-count: 1 !important;
       transition-duration: 0.01ms !important;
+    }
+
+    .doctor-book-appointment {
+      transition-delay: 0s;
     }
   }
 }

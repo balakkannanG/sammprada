@@ -1,18 +1,18 @@
-import AboutSection from "@/components/about-section";
-import CareRibbon from "@/components/care-ribbon";
-import ClosingCta from "@/components/closing-cta";
-import DoctorsSection from "@/components/doctors-section";
-import FaqSection from "@/components/faq-section";
-import HeroSection from "@/components/hero-section";
-import NewsSection from "@/components/news-section";
-import OncologySection from "@/components/oncology-section";
-import PackagesSection from "@/components/packages-section";
-import QuoteSection from "@/components/quote-section";
+import AboutSection from "@/components/home/about-section";
+import CareRibbon from "@/components/home/care-ribbon";
+import ClosingCta from "@/components/home/closing-cta";
+import DoctorsSection from "@/components/home/doctors-section";
+import FaqSection from "@/components/home/faq-section";
+import HeroSection from "@/components/home/hero-section";
+import NewsSection from "@/components/home/news-section";
+import OncologySection from "@/components/home/oncology-section";
+import PackagesSection from "@/components/home/packages-section";
+import QuoteSection from "@/components/home/quote-section";
 import SiteAnimations from "@/components/site-animations";
 import SiteFooter from "@/components/site-footer";
 import SiteHeader from "@/components/site-header";
-import SpecialtiesSection from "@/components/specialties-section";
-import VideoStoriesSection from "@/components/video-stories-section";
+import SpecialtiesSection from "@/components/home/specialties-section";
+import VideoStoriesSection from "@/components/home/video-stories-section";
 
 export default function Home() {
   return (

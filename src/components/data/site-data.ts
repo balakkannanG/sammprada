@@ -70,32 +70,32 @@ export const doctors = [
   {
     name: "Dr. Radheshyam Naik",
     specialty: "Medical Oncology",
-    image: `${assets}/al_opt_content/IMAGE/www.sammprada.com/wp-content/uploads/2025/12/Dr-Radheshyam-Naik-1-480.png.bv.webp`,
+    image: "/images/doctors/2025/12/Dr-Radheshyam-Naik-1.webp",
   },
   {
     name: "Dr. Jithendran N",
     specialty: "Plastic Surgery",
-    image: `${assets}/al_opt_content/IMAGE/www.sammprada.com/wp-content/uploads/2025/12/Dr-Jitendhar-480.png.bv.webp`,
+    image: "/images/doctors/2025/12/Dr-Jitendhar.webp",
   },
   {
     name: "Dr. Vivekananda",
     specialty: "Vascular Surgery",
-    image: `${assets}/al_opt_content/IMAGE/www.sammprada.com/wp-content/uploads/2025/12/Dr-Vivekananda-1-480.png.bv.webp`,
+    image: "/images/doctors/2025/12/Dr-Vivekananda-1.webp",
   },
   {
     name: "Dr. Ravindra H S",
     specialty: "General Medicine",
-    image: `${assets}/al_opt_content/IMAGE/www.sammprada.com/wp-content/uploads/2025/12/Ravindra-HS-480.png.bv.webp`,
+    image: "/images/doctors/2025/12/Ravindra-HS.webp",
   },
   {
     name: "Dr. Intezar Mehdi",
     specialty: "Medical Oncology",
-    image: `${assets}/al_opt_content/IMAGE/www.sammprada.com/wp-content/uploads/2026/04/dr.-intezar@3x-scaled-480.png.bv.webp`,
+    image: "/images/doctors/2026/04/dr.-intezar@3x-scaled.webp",
   },
   {
     name: "Dr. Ramesh S K",
     specialty: "Laparoscopic & General Surgery",
-    image: `${assets}/al_opt_content/IMAGE/www.sammprada.com/wp-content/uploads/2025/12/Dr-Ramesh-SK-1-480.png.bv.webp`,
+    image: "/images/doctors/2025/12/Dr-Ramesh-SK-1.webp",
   },
 ];
 
@@ -148,7 +148,7 @@ export const navigation: MenuItem[] = [
       },
     ],
   },
-  { label: "OUR DOCTORS", href: `${site}/our-doctors/` },
+  { label: "OUR DOCTORS", href: "/our-doctors/" },
   { label: "CONTACT US", href: `${site}/contact-us/` },
   { label: "SHOBHA TRUST", href: site },
   { label: "R&D", href: `${site}/rd/` },
